@@ -1,0 +1,204 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho {
+	background-color: #4287f5;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	background: #CCC;
+	padding: 15px;
+}
+
+/*
+**** Formatações do menu ****
+*/
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #4287f5;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px ;
+}
+
+#area-cabecalho a:hover {
+	color: #4287f5;
+	background: #FFF;
+	text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+	color: 4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #4287f5;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+h4 {
+	color: #4287f5;
+	margin: 15px 0px 10px 0px; 
+	font-size: 1.2em;
+}
+
+ul {
+	margin-left: 18px;
+}
+
+
+.branco {
+	color: white;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+/*
+**** Estilo página jogos ****
+*/
+
+#principal-jogos {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+	
+}
+
+#postagens-jogos {
+	width: 900px;
+	margin: 0 auto;
+	float: left;
+}
+
+.jogos {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+/*
+**** Estilo página Celulares ****
+*/
+
+#celulares-principal {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 15px
+}
+
+#celulares-postagens {
+	margin: 0 auto;
+	float: left;
+}
+
+.Lançamentos-celulares {
+	width: 1080px;
+	padding: 10px;
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+	float: left
+}
+
+.celulares {
+	width: 326px;
+	padding: 15px;
+	margin: 5px 5px 30px 5px;
+	background: white;
+	float: left;
+}
+
+.intel {
+	width: 1060px;
+	padding: 15px;
+	margin: 5px 5px 30px 5px;
+	background: white;
+	float: left;
+}
+
+body.home #navegacao a#home {
+	color: #FFF;
+	background: #de003e;
+	cursor: text;
+}
