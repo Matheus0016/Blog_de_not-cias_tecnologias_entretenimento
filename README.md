@@ -4,7 +4,7 @@
 <p></p>Dentro das respectivas páginas como por exemplo em Jogos, a opção "Leia mais" de STAR WARS Jedi: Survivor e The Last Of Us Part 1 
 vai te levar a uma página mostrando os requisitos mínimos e recomendados do game.</p>
 
-## Tecnologia e materiais utilizados
+## Tecnologias utilizadas
 + HTML 5
 + CSS 3
 
